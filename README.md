@@ -1,3 +1,1 @@
-# hello-world
-my first repository
-/n Mark the date 19/04/2020. /n I'm going to be a Data scientist one fine day.
+This repository is all about the blogs/articles I come across and my understandings

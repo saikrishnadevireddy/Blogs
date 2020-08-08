@@ -1,0 +1,14 @@
+Exploring Bayesian Optimization was authored by Apoorv Agnihotri and Nipun Batra in affiliation with Indian Insitute of Technology Gandhinagar
+
+https://distill.pub/2020/bayesian-optimization/
+
+A bit intro into what Bayesian Optimization is: 
+Bayesian optimization is an approach to optimize objective functions that take long time to evaluate.
+It is best suited for continuous domains of less than 20 domains and tolerates stochastic noise in function evaluations.
+It builds a surrogate for the objective and quantifies the uncertainity in the surrogate using a Bayesian ML technique, Gaussian process regression and 
+then uses a acquisition function defined from this surrogate to decide where to sample.
+
+Stochastic noise: In supervised learning, specifically when learning from  data, there are situations where data points cannot be modelled.
+This may arise if there are random fluctuations or measurement errors in the data and are not modelled. 
+When the phenomenon being modelled is too complex, the data contains this added complexity that is not modelled. 
+This added complexity in the data has been called Deterministic noise.
